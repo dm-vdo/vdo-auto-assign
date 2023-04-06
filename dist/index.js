@@ -35365,12 +35365,11 @@ const parseConfig = function (content) {
 };
 
 
-async function fetchContent(client, repoPath) {
+async function fetchContent(client) {
   const response = await client.repos.getContents({
     owner: "TheSafetyDanceFanClub",
     repo: "vdo-auto-assign",
-    path: repoPath,
-    ref: github.context.sha,
+    path: ".github/auto_assign.yml"
   });
 
   return Buffer.from(response.data.content, response.data.encoding).toString();
@@ -35383,12 +35382,7 @@ const main = async () => {
      * and store them in variables for us to use.
      **/
     const token = core.getInput('token', { required: true });      
-    const config_path = core.getInput('config');  
 
-    core.info(github.context.repo.owner);
-    core.info(github.context.repo.repo);
-    core.info(github.context.payload.pull_request.number);
-      
     /**
      * Now we need to create an instance of Octokit which will use to call
      * GitHub's REST API endpoints.
@@ -35400,7 +35394,7 @@ const main = async () => {
     const octokit = new github.getOctokit(token);
 
     // Now we parse the config file.
-    const configContent = await fetchContent(octokit, config_path);
+    const configContent = await fetchContent(octokit);
     const config = parseConfig(configContent);
 
     core.debug("config");
