@@ -35363,7 +35363,17 @@ const parseConfig = function (content) {
   }
   return r;
 };
-    
+
+async function fetchContent(client, repoPath) {
+  const response = await client.repos.getContents({
+    owner: github.context.repo.owner,
+    repo: github.context.repo.repo,
+    path: repoPath,
+    ref: github.context.sha,
+  });
+
+  return Buffer.from(response.data.content, response.data.encoding).toString();
+}
 const main = async () => {
   try {
     /**
