@@ -4,7 +4,7 @@ inputs:
   token:
     description: 'The token to use to access the GitHub API'
     required: true
-  configuration-path:
+  config:
     description: 'A path for the auto-assign configuration'
     default: '.github/auto_assign.yml'    
 runs:
