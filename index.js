@@ -17,8 +17,8 @@ const parseConfig = function (content) {
 
 async function fetchContent(client, repoPath) {
   const response = await client.repos.getContents({
-    owner: github.context.repo.owner,
-    repo: github.context.repo.repo,
+    owner: "TheSafetyDanceFanClub",
+    repo: "vdo-auto-assign",
     path: repoPath,
     ref: github.context.sha,
   });
