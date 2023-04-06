@@ -34,7 +34,7 @@ const main = async () => {
     const octokit = new github.getOctokit(token);
 
     // Now we parse the config file.
-    const configContent = await fetchContent(octokit, configPath);
+    const configContent = await fetchContent(octokit, config_path);
     const config = parseConfig(configContent);
 
     core.debug("config");
