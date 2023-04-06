@@ -35364,6 +35364,7 @@ const parseConfig = function (content) {
   return r;
 };
 
+
 async function fetchContent(client, repoPath) {
   const response = await client.repos.getContents({
     owner: github.context.repo.owner,
@@ -35373,7 +35374,8 @@ async function fetchContent(client, repoPath) {
   });
 
   return Buffer.from(response.data.content, response.data.encoding).toString();
-}
+};
+
 const main = async () => {
   try {
     /**
@@ -35383,6 +35385,10 @@ const main = async () => {
     const token = core.getInput('token', { required: true });      
     const config_path = core.getInput('config');  
 
+    core.info(github.context.repo.owner);
+    core.info(github.context.repo.repo);
+    core.info(github.context.payload.pull_request.number);
+      
     /**
      * Now we need to create an instance of Octokit which will use to call
      * GitHub's REST API endpoints.
