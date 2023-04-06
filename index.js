@@ -1,6 +1,6 @@
 const core = require('@actions/core');
 const github = require('@actions/github');
-const yaml = require("js-yaml");
+const yaml = require("yaml");
 const _ = require("lodash");
 
 const context = github.context;
