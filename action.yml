@@ -4,6 +4,9 @@ inputs:
   token:
     description: 'The token to use to access the GitHub API'
     required: true
+  configuration-path:
+    description: 'A path for the auto-assign configuration'
+    default: '.github/auto_assign.yml'    
 runs:
   using: 'node16'
   main: 'dist/index.js'
