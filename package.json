@@ -19,6 +19,7 @@
   "homepage": "https://github.com/TheSafetyDanceFanClub/vdo-auto-assign#readme",
   "dependencies": {
     "@actions/core": "^1.10.0",
-    "@actions/github": "^5.1.1"
+    "@actions/github": "^5.1.1",
+    "@vercel/ncc": "^0.36.1"
   }
 }
