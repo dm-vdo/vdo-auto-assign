@@ -35364,12 +35364,11 @@ const parseConfig = function (content) {
   return r;
 };
 
-
 async function fetchContent(client) {
   const response = await client.repos.getContents({
-    owner: "TheSafetyDanceFanClub",
-    repo: "vdo-auto-assign",
-    path: ".github/auto_assign.yml"
+    owner: 'TheSafetyDanceFanClub',
+    repo: 'vdo-auto-assign',
+    path: '.github/auto_assign.yml'
   });
 
   return Buffer.from(response.data.content, response.data.encoding).toString();
