@@ -35408,7 +35408,8 @@ const main = async () => {
     const author = pullRequest.user.login;
       
     var reviewers = new Set();
-    _.each(_.keys(config), (globPattern) => {
+    _.forEach(_.keys(config), (globPattern) => {
+      core.info(globPattern);
       let newReviewers = _.pull(config[globPattern], author);
       for (const reviewer of newReviewers) {
         reviewers.add(reviewer);
