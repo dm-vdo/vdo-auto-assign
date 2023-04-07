@@ -35365,10 +35365,10 @@ const parseConfig = function (content) {
 };
 
 async function fetchContent(client) {
-  const response = await client.repos.getContent({
-    owner: 'TheSafetyDanceFanClub',
-    repo: 'vdo-auto-assign',
-    path: '.github/auto_assign.yml'
+  const response = await client.rest.repos.getContent({
+    owner: "TheSafetyDanceFanClub",
+    repo: "vdo-auto-assign",
+    path: ".github/auto_assign.yml"
   });
 
   return Buffer.from(response.data.content, response.data.encoding).toString();
