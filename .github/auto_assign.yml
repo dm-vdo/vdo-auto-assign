@@ -1,21 +1,13 @@
-# Set to true to add reviewers to pull requests
-addReviewers: true
+# Set the current review czar
+czar: bjohnsto
 
-# Set to true to add assignees to pull requests
-addAssignees: author
+# Set the backup czar for pull requests authored by czar
+backup: jochapma
 
-# A list of assignees, overrides reviewers if set
-reviewers:
+# A list of possible review czars and backups
+members:
   - bjohnsto
   - jochapma
   - jshimkus-rh
 
-# A number of reviewers to add to the pull request
-# Set to 0 to add all of the reviewers.
-# Uses numberOfReviewers if unset.
-numberOfReviewers: 0
 
-# A number of assignees to add to the pull request
-# Set to 0 to add all of the assignees.
-# Uses numberOfReviewers if unset.
-numberOfAssignees: 0
