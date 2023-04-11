@@ -90,19 +90,25 @@ const main = async () => {
 			
 		const author = pullRequest.user.login;
 
-		// Authors cannot be reviewers
-		let reviewer = config["czar"];
-		if (config["czar"] == author) {
-			reviewer = config["backup"];
+		// Set a reviewer if there isn't one already.
+		if ((!pullRequest.requested_reviewers.length) && (!pullRequest.requested_teams.length)) {
+			// Authors cannot be reviewers
+			let reviewer = config["czar"];
+			if (config["czar"] == author) {
+				reviewer = config["backup"];
+			}
+			
+			assignReviewer(octokit, reviewer).catch((error) => {
+					core.setFailed(error.message);
+			});
 		}
-			
-		assignReviewer(octokit, reviewer).catch((error) => {
-			core.setFailed(error.message);
-		});
-			
-		assignAssignee(octokit, author).catch((error) => {
-			core.setFailed(error.message);
-		});
+
+		// Set an assignee if there isn't one already.
+		if ((!pullRequest.assignees.length)) {			
+			assignAssignee(octokit, author).catch((error) => {
+				core.setFailed(error.message);
+			});
+		}
 			
 		core.info("finished!");
 			
