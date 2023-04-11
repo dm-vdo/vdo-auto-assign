@@ -49,10 +49,10 @@ async function assignAssignee(octokit, assignee) {
 			return;
 	}
 
-	await octokit.rest.pulls.addAssignees({
+	await octokit.rest.issues.addAssignees({
 		owner: context.repo.owner,
 		repo: context.repo.repo,
-		pull_number: context.payload.pull_request.number,
+		issue_number: context.payload.pull_request.number,
 		[key]: [target],
 	});
 }
