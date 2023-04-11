@@ -35383,7 +35383,7 @@ async function assignReviewer(octokit, reviewer) {
 		target = reviewer.team;
 	}
 
-	await octokit.pulls.requestReviewers({
+	await octokit.rest.pulls.requestReviewers({
 		owner: context.repo.owner,
 		repo: context.repo.repo,
 		pull_number: context.payload.pull_request.number,
@@ -35399,7 +35399,7 @@ async function assignAssignee(octokit, assignee) {
 			return;
 	}
 
-	await octokit.pulls.addAssignees({
+	await octokit.rest.pulls.addAssignees({
 		owner: context.repo.owner,
 		repo: context.repo.repo,
 		pull_number: context.payload.pull_request.number,
