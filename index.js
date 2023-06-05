@@ -16,7 +16,7 @@ const parseConfig = function (content) {
 
 async function fetchContent(client) {
 	const response = await client.rest.repos.getContent({
-		owner: "TheSafetyDanceFanClub",
+		owner: "dm-vdo",
 		repo: "vdo-auto-assign",
 		path: ".github/auto_assign.yml"
 	});
