@@ -2,12 +2,17 @@
 czar: bjohnsto
 
 # Set the backup czar for pull requests authored by czar
-backup: jshimkus-rh
+backup: jochapma
 
 # A list of possible review czars and backups
 members:
   - bjohnsto
   - jochapma
   - jshimkus-rh
+  - jwieleRH
+  - lorelei-sakai
+  - raeburn
+  - rh-scliff
+  - slegendr
 
 
