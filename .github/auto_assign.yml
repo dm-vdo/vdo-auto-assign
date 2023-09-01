@@ -1,14 +1,21 @@
 # Set the current review czar
-czar: bjohnsto
+czar: raeburn
 
 # Set the backup czar for pull requests authored by czar
-backup: lorelei-sakai
+backup: selegendr
 
-# A list of possible review czars and backups
+# Triage assignment reference
+triage: raeburn
+triage-next: slegendr
+
+# A list of possible triage, review czar and backup assignees
 members:
-  - bjohnsto  
-  - lorelei-sakai
+  - bjohnsto
+  - C2Redhat
   - raeburn
   - slegendr
 
-
+# Members of the team in an advisory role
+advisory-members:
+  - lorelei-sakai
+  - rhawalsh
