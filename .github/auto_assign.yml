@@ -1,12 +1,12 @@
 # Set the current review czar
-czar: raeburn
+czar: slegendr
 
 # Set the backup czar for pull requests authored by czar
-backup: selegendr
+backup: cchung
 
 # Triage assignment reference
-triage: raeburn
-triage-next: slegendr
+triage: slegendr
+triage-next: cchung
 
 # A list of possible triage, review czar and backup assignees
 members:
