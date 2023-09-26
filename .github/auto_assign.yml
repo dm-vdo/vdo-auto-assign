@@ -1,17 +1,17 @@
 # Set the current review czar
-czar: slegendr
+czar: C2Redhat
 
 # Set the backup czar for pull requests authored by czar
-backup: cchung
+backup: bjohnsto
 
 # Triage assignment reference
-triage: slegendr
-triage-next: cchung
+triage: C2Redhat
+triage-next: bjohnsto
 
 # A list of possible triage, review czar and backup assignees
 members:
-  - bjohnsto
   - C2Redhat
+  - bjohnsto
   - raeburn
   - slegendr
 
