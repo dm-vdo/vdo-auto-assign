@@ -10,8 +10,8 @@ triage-next: bjohnsto
 
 # A list of possible triage, review czar and backup assignees
 members:
-  - C2Redhat
   - bjohnsto
+  - C2Redhat
   - raeburn
   - slegendr
 
