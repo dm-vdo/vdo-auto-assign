@@ -15,6 +15,17 @@ members:
   - raeburn
   - slegendr
 
+# Upcoming rotation:
+# Date   | triage/czar | backup
+# -------+-------------+----------
+# 10-Oct | raeburn     | C2Redhat
+# 18-Oct | raeburn     | slegendr
+# 24-Oct | slegendr    | bjohnsto
+# 07-Nov | bjohnsto    | C2Redhat
+# 21-Nov | C2Redhat    | raeburn
+# 05-Dec | raeburn     | slegendr
+# 19-Dec | slegendr    | bjohnsto
+
 # Members of the team in an advisory role
 advisory-members:
   - lorelei-sakai
