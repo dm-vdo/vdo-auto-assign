@@ -1,12 +1,12 @@
 # Set the current review czar
-czar: raeburn
+czar: slegendr
 
 # Set the backup czar for pull requests authored by czar
-backup: C2Redhat
+backup: bjohnsto
 
 # Triage assignment reference
-triage: raeburn
-triage-next: C2Redhat
+triage: slegendr
+triage-next: bjohnsto
 
 # A list of possible triage, review czar and backup assignees
 members:
@@ -18,13 +18,13 @@ members:
 # Upcoming rotation:
 # Date   | triage/czar | backup
 # -------+-------------+----------
-# 10-Oct | raeburn     | C2Redhat
-# 18-Oct | raeburn     | slegendr
 # 24-Oct | slegendr    | bjohnsto
 # 07-Nov | bjohnsto    | C2Redhat
 # 21-Nov | C2Redhat    | raeburn
 # 05-Dec | raeburn     | slegendr
 # 19-Dec | slegendr    | bjohnsto
+# 02-Jan | bjohnsto    | C2Redhat
+# 16-Jan | C2Redhat    | raeburn
 
 # Members of the team in an advisory role
 advisory-members:
