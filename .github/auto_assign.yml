@@ -5,29 +5,41 @@ czar: C2Redhat
 backup: raeburn
 
 # Triage assignment reference
-triage: C2Redhat
+triage: cchung
 triage-next: raeburn
 
 # A list of possible triage, review czar and backup assignees
 members:
-  - bjohnsto
-  - C2Redhat
-  - raeburn
-  - slegendr
+  bjohnsto:
+    Jira: bjohnston
+    Github: bjohnsto
+  cchung:
+    Jira: cchung
+    Github: C2Redhat
+  raeburn:
+    Jira: raeburn
+    Github: raeburn
+  slegendr:
+    Jira: slegendr
+    Github: slegendr
 
 # Upcoming rotation:
 # Date   | triage/czar | backup
 # -------+-------------+----------
 # 21-Nov | C2Redhat    | raeburn
-# 05-Dec | raeburn     | slegendr
-# 19-Dec | slegendr    | bjohnsto
-# 02-Jan | bjohnsto    | C2Redhat
-# 16-Jan | C2Redhat    | raeburn
-# 30-Jan | raeburn     | slegendr
-# 13-Feb | slegendr    | bjohnsto
-# 20-Feb | bjohnsto    | C2Redhat
+# 02-Jan | raeburn     | slegendr
+# 16-Jan | slegendr    | bjohnsto
+# 30-Jan | bjohnsto    | C2Redhat
+# 13-Feb | C2Redhat    | raeburn
+# 27-Feb | raeburn     | slegendr
+# 12-Mar | slegendr    | bjohnsto
+# 26-Mar | bjohnsto    | C2Redhat
 
 # Members of the team in an advisory role
 advisory-members:
-  - lorelei-sakai
-  - rhawalsh
+  msakai:
+    Github: lorelei-sakai
+    Jira: msakai
+  awalsh:
+    Github: rhawalsh
+    Jira: awalsh
