@@ -10,18 +10,30 @@ triage-next: bjohnsto
 
 # A list of possible triage, review czar and backup assignees
 members:
+  awalsh:
+    Role: advisory
+    Github: rhawalsh
+    Jira: awalsh1
   bjohnsto:
-    Jira: bjohnston
+    Role: rotation
+    Jira: rojohnst
     Github: bjohnsto
   cchung:
+    Role: rotation
     Jira: cchung
     Github: C2Redhat
   raeburn:
+    Role: rotation
     Jira: raeburn
     Github: raeburn
   slegendr:
+    Role: rotation
     Jira: slegendr
     Github: slegendr
+  msakai:
+    Role: advisory
+    Github: lorelei-sakai
+    Jira: msakai
 
 # Upcoming rotation:
 # Date   | triage/czar | backup
@@ -34,12 +46,3 @@ members:
 # 26-Mar | bjohnsto    | cchung
 # 09-Apr | cchung      | raeburn
 # 16-Apr | raeburn     | slegendr
-
-# Members of the team in an advisory role
-advisory-members:
-  msakai:
-    Github: lorelei-sakai
-    Jira: msakai
-  awalsh:
-    Github: rhawalsh
-    Jira: awalsh
