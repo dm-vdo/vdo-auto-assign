@@ -2,11 +2,11 @@
 czar: bjohnsto
 
 # Set the backup czar for pull requests authored by czar
-backup: cchung
+backup: raeburn
 
 # Triage assignment reference
 triage: bjohnsto
-triage-next: cchung
+triage-next: raeburn
 
 # A list of possible triage, review czar and backup assignees
 members:
@@ -39,11 +39,11 @@ members:
 # Date   | triage/czar | backup
 # -------+-------------+----------
 # 30-Jan | bjohnsto    | cchung
-# 13-Feb | bjohnsto    | raeburn
-# 16-Feb | cchung      | raeburn
-# 27-Feb | raeburn     | slegendr
-# 12-Mar | slegendr    | bjohnsto
-# 26-Mar | bjohnsto    | cchung
-# 09-Apr | cchung      | raeburn
-# 16-Apr | raeburn     | slegendr
-# 30-Apr | slegendr    | bjohnsto
+# 07-Feb | bjohnsto    | raeburn
+# 20-Feb | cchung      | raeburn
+# 05-Mar | raeburn     | slegendr
+# 19-Mar | slegendr    | bjohnsto
+# 02-Apr | bjohnsto    | cchung
+# 16-Apr | cchung      | raeburn
+# 30-Apr | raeburn     | slegendr
+# 14-May | slegendr    | bjohnsto
