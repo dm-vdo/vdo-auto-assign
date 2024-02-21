@@ -1,11 +1,11 @@
 # Set the current review czar
-czar: bjohnsto
+czar: cchung
 
 # Set the backup czar for pull requests authored by czar
 backup: raeburn
 
 # Triage assignment reference
-triage: bjohnsto
+triage: cchung
 triage-next: raeburn
 
 # A list of possible triage, review czar and backup assignees
@@ -38,6 +38,7 @@ members:
 # Upcoming rotation:
 # Date   | triage/czar | backup
 # -------+-------------+----------
+# 20-Feb | cchung      | raeburn
 # 30-Jan | bjohnsto    | cchung
 # 07-Feb | bjohnsto    | raeburn
 # 20-Feb | cchung      | raeburn
