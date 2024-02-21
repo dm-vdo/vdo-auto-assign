@@ -1,5 +1,5 @@
 # Set the current review czar
-czar: cchung
+czar: C2Redhat
 
 # Set the backup czar for pull requests authored by czar
 backup: raeburn
