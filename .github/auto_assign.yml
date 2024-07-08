@@ -41,10 +41,10 @@ members:
 # Date   | triage/czar | backup
 # -------+-------------+----------
 # 02-Jul | slegendr    | bjohnsto
-# 30-Jul | bjohnsto    | cchung
-# 13-Aug | cchung      | raeburn
-# 27-Aug | raeburn     | slegendr
-# 10-Sep | slegendr    | bjohnsto
-# 24-Sep | bjohnsto    | cchung
-# 08-Oct | cchung      | raeburn
-# 22-Oct | raeburn     | slegendr
+# 16-Jul | bjohnsto    | cchung
+# 30-Jul | cchung      | raeburn
+# 13-Aug | raeburn     | slegendr
+# 27-Aug | slegendr    | bjohnsto
+# 10-Sep | bjohnsto    | cchung
+# 24-Sep | cchung      | raeburn
+# 08-Oct | raeburn     | slegendr
