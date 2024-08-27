@@ -1,12 +1,12 @@
 # Set the current review czar
-czar: raeburn
+czar: slegendr
 
 # Set the backup czar for pull requests authored by czar
-backup: slegendr
+backup: bjohnsto
 
 # Triage assignment reference
-triage: raeburn
-triage-next: slegendr
+triage: slegendr
+triage-next: bjohnsto
 
 # A list of possible triage, review czar and backup assignees
 members:
@@ -40,7 +40,6 @@ members:
 #   count=0; i=14; while [ $count -lt 8 ]; do date -d "+${i}days" +"%d-%b"; i=$((i+14)); count=$((count+1)); done
 # Date   | triage/czar | backup
 # -------+-------------+----------
-# 13-Aug | raeburn     | slegendr
 # 27-Aug | slegendr    | bjohnsto
 # 10-Sep | bjohnsto    | cchung
 # 24-Sep | cchung      | raeburn
@@ -48,3 +47,4 @@ members:
 # 22-Oct | slegendr    | bjohnsto
 # 05-Nov | bjohnsto    | cchung
 # 19-Nov | cchung      | raeburn
+# 26-Nov | raeburn     | slegendr
