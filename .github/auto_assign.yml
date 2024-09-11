@@ -1,8 +1,10 @@
 # Set the current review czar
+# (This must refer to the Github value of the assignee)
 czar: bjohnsto
 
 # Set the backup czar for pull requests authored by czar
-backup: cchung
+# (This must refer to the Github value of the assignee)
+backup: C2Redhat
 
 # Triage assignment reference
 triage: bjohnsto
