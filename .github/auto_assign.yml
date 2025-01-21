@@ -1,14 +1,14 @@
 # Set the current review czar
 # (This must refer to the Github value of the assignee)
-czar: C2Redhat
+czar: bjohnsto
 
 # Set the backup czar for pull requests authored by czar
 # (This must refer to the Github value of the assignee)
-backup: raeburn
+backup: C2Redhat
 
 # Triage assignment reference
-triage: cchung
-triage-next: raeburn
+triage: bjohnsto
+triage-next: cchung
 
 # A list of possible triage, review czar and backup assignees
 members:
@@ -38,10 +38,10 @@ members:
 #   count=0; i=14; while [ $count -lt 8 ]; do date -d "+${i}days" +"%d-%b"; i=$((i+14)); count=$((count+1)); done
 # Date   | triage/czar | backup
 # -------+-------------+----------
-# 07-Jan | cchung      | raeburn
-# 21-Jan | raeburn     | bjohnsto
-# 04-Feb | bjohnsto    | cchung
-# 18-Feb | cchung      | raeburn
-# 04-Mar | raeburn     | bjohnsto
-# 18-Mar | bjohnsto    | cchung
-# 01-Apr | chung       | raeburn
+# 21-Jan | bjohnsto    | cchung
+# 04-Feb | reaburn     | bjohnsto
+# 18-Feb | bjohnsto    | cchung
+# 04-Mar | cchung      | reaburn
+# 18-Mar | reaburn     | bjohnsto
+# 01-Apr | bjohnsto    | cchung
+# 15-Apr | cchung      | raeburn
