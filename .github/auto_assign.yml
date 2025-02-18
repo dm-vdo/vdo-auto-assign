@@ -38,10 +38,10 @@ members:
 #   count=0; i=14; while [ $count -lt 8 ]; do date -d "+${i}days" +"%d-%b"; i=$((i+14)); count=$((count+1)); done
 # Date   | triage/czar | backup
 # -------+-------------+----------
-# 04-Feb | raeburn     | bjohnsto
-# 18-Feb | bjohnsto    | cchung
-# 04-Mar | cchung      | raeburn
-# 18-Mar | raeburn     | bjohnsto
-# 01-Apr | bjohnsto    | cchung
-# 15-Apr | cchung      | raeburn
-# 29-Apr | raeburn     | bjohnsto
+# 25-Feb | bjohnsto    | cchung
+# 11-Mar | cchung      | raeburn
+# 25-Mar | raeburn     | bjohnsto
+# 08-Apr | bjohnsto    | cchung
+# 22-Apr | cchung      | raeburn
+# 06-May | raeburn     | bjohnsto
+# 20-May | bjohnsto    | cchung
