@@ -1,14 +1,14 @@
 # Set the current review czar
 # (This must refer to the Github value of the assignee)
-czar: raeburn
+czar: msakai
 
 # Set the backup czar for pull requests authored by czar
 # (This must refer to the Github value of the assignee)
-backup: msakai
+backup: C2Redhat
 
 # Triage assignment reference
-triage: raeburn
-triage-next: msakai
+triage: msakai
+triage-next: cchung
 
 # A list of possible triage, review czar and backup assignees
 members:
