@@ -1,12 +1,12 @@
 # Set the current review czar
 # (This must refer to the Github value of the assignee)
-czar: msakai
+czar: lorelei-sakai
 
 # Set the backup czar for pull requests authored by czar
 # (This must refer to the Github value of the assignee)
 backup: C2Redhat
 
-# Triage assignment reference
+# Triage assignment reference (Jira names)
 triage: msakai
 triage-next: cchung
 
