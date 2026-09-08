@@ -1,14 +1,14 @@
 # Set the current review czar
 # (This must refer to the Github value of the assignee)
-czar: lorelei-sakai
+czar: raeburn
 
 # Set the backup czar for pull requests authored by czar
 # (This must refer to the Github value of the assignee)
-backup: C2Redhat
+backup: lorelei-sakai
 
 # Triage assignment reference (Jira names)
-triage: msakai
-triage-next: cchung
+triage: raeburn
+triage-next: msakai
 
 # A list of possible triage, review czar and backup assignees
 members:
@@ -17,11 +17,11 @@ members:
     Github: rhawalsh
     Jira: awalsh1
   bjohnsto:
-    Role: rotation
+    Role: advisory
     Jira: bjohnsto
     Github: bjohnsto
   cchung:
-    Role: rotation
+    Role: advisory
     Jira: cchung
     Github: C2Redhat
   raeburn:
@@ -29,7 +29,7 @@ members:
     Jira: raeburn
     Github: raeburn
   msakai:
-    Role: advisory
+    Role: rotation
     Github: lorelei-sakai
     Jira: msakai
 
@@ -38,11 +38,11 @@ members:
 #   count=0; i=14; while [ $count -lt 8 ]; do date -d "+${i}days" +"%d-%b"; i=$((i+14)); count=$((count+1)); done
 # Date   | triage/czar | backup
 # -------+-------------+----------
-# 18-Aug | msakai      | cchung
-# 01-Sep | cchung      | raeburn
-# 15-Sep | raeburn     | msakai
-# 29-Sep | msakai      | cchung
-# 13-Oct | cchung      | raeburn
-# 27-Oct | raeburn     | msakai
-# 10-Nov | cchung      | raeburn
-# 24-Nov | raeburn     | msakai
+# 08-Sep | raeburn     | msakai
+# 22-Sep | msakai      | raeburn
+# 06-Oct | raeburn     | msakai
+# 20-Oct | msakai      | raeburn
+# 03-Nov | raeburn     | msakai
+# 17-Nov | msakai      | raeburn
+# 01-Dec | raeburn     | msakai
+# 15-Dec | msakai      | raeburn
