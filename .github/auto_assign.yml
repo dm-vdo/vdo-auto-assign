@@ -1,14 +1,14 @@
 # Set the current review czar
 # (This must refer to the Github value of the assignee)
-czar: raeburn
+czar: lorelei-sakai
 
 # Set the backup czar for pull requests authored by czar
 # (This must refer to the Github value of the assignee)
-backup: lorelei-sakai
+backup: raeburn
 
 # Triage assignment reference (Jira names)
-triage: raeburn
-triage-next: msakai
+triage: msakai
+triage-next: raeburn
 
 # A list of possible triage, review czar and backup assignees
 members:
@@ -38,11 +38,7 @@ members:
 #   count=0; i=14; while [ $count -lt 8 ]; do date -d "+${i}days" +"%d-%b"; i=$((i+14)); count=$((count+1)); done
 # Date   | triage/czar | backup
 # -------+-------------+----------
-# 08-Sep | raeburn     | msakai
-# 22-Sep | msakai      | raeburn
-# 06-Oct | raeburn     | msakai
-# 20-Oct | msakai      | raeburn
 # 03-Nov | raeburn     | msakai
 # 17-Nov | msakai      | raeburn
 # 01-Dec | raeburn     | msakai
-# 15-Dec | msakai      | raeburn
+# 04-Jan | msakai      | raeburn
